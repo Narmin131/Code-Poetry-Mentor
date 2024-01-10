@@ -1,0 +1,25 @@
+.light {
+  --bgColor: rgb(188, 112, 112);
+  --textColor: black;
+  --btnColor: red;
+}
+
+.dark {
+  --bgColor: #462272;
+  --textColor: rgb(255, 255, 255);
+  --btnColor: green;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--bgColor);
+}
+
+header h1 {
+  color: var(--textColor);
+}
+
+header button {
+  color: var(--btnColor);
+}
