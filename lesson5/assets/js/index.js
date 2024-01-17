@@ -24,7 +24,7 @@ console.log(a);
 // 3.removeItem
 
 localStorage.removeItem("Age");
-localStorage.setItem('Lang', 'AZ')
+localStorage.setItem("Lang", "AZ");
 // 4.clear
 
 localStorage.clear();
@@ -38,3 +38,12 @@ console.log(localStorage.getItem("LogIn"));
 
 // JSON.stringify();
 // JSON.parse();
+
+// const getData = (a, b) => {
+//   fetch("").then.then(data.slice(a, b));
+// };
+
+// onclik = getData(0, 50);
+// onclik = getData(51, 100);
+// onclik = getData(101, 150);
+// onclik = getData(151, 200);
