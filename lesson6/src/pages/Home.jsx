@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Class from "../components/Class";
+import Function from "../components/Function";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Class />
+      <Function />
+    </>
+  );
+};
 
-export default Home
+export default Home;
